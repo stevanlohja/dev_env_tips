@@ -1,0 +1,6 @@
+Windows 10
+
+Problem: Setup git with gpg signing and key but no secret key can be found.
+> gpg: skipped “N”: secret key not available
+Solution: Specify the gpg program path.
+> git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
